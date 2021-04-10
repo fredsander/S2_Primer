@@ -24,7 +24,7 @@ namespace S2_MiPrimerProyecto
             per1.dni = "123456";
             per1.nombreCompleto = "Jefferson Farfan";
             per1.telefono = 99558866;
-
+            
             Persona per2 = new Persona("7778888889", "Paolo Guerrero", 955522333);
 
             listado.Add(per1);
@@ -32,16 +32,7 @@ namespace S2_MiPrimerProyecto
             listado.Add(new Persona("85566666", "Raul Ruidiaz", 23366665));
 
             detalleEdad = edad > 17 ? "Es mayor de edad" : "Es menor de edad";
-            //if (edad>17)
-            //{
-            //    detalleEdad = "Es mayo de edad";
-            //}
-            //else
-            //{
-            //    detalleEdad = "Es menor de edad";
-            //}
-
-            //Para recorrer un listado
+          
 
             foreach (var item in listado)
             {
@@ -53,7 +44,7 @@ namespace S2_MiPrimerProyecto
 
            
 
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
