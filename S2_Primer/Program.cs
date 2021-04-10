@@ -44,7 +44,7 @@ namespace S2_MiPrimerProyecto
 
            
 
-            
+            Console.WriteLine("Hello World!");
         }
     }
 }
